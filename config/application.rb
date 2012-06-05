@@ -58,5 +58,7 @@ module Developer
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+    ENV['FACEBOOK_KEY']= '477225575626554'
+    ENV['FACEBOOK_SECRET']= '51da45d64d2d866d151ac429a424d12a'
   end
 end
